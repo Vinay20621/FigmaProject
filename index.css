@@ -1,0 +1,149 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+   
+ 
+}
+body
+{
+    background-color:#FFFFFF;
+    font-weight: 400;
+    font-size: 1rem;
+    
+      
+}
+footer {
+    color:#FFFFFF;
+    background-color: #2C2D5B;
+    font-size:   14px;
+    overflow:hidden;
+   
+   
+
+}
+.button2
+{
+    border: 1px solid #2C2D5B;
+    border-radius: 12px;
+    font-weight: 600;
+    
+}
+li{
+   
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.circle
+{
+    height: 35px;
+}
+.my-color
+{
+    color:  #F67366;    
+
+}
+.color-button
+{
+    background-color:#2C2D5B;
+    color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    padding:  20px, 40px, 20px, 40px;
+    border-radius: 12px;
+    
+}
+
+.target-button
+{
+    background-color:#2C2D5B;
+    color: #FFFFFF;
+    width: 100%;
+}
+.whole-body
+{
+    /* background-color: #2C2D5B; */
+    overflow-y: hidden;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('./assets/Location.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+   
+  }
+ 
+  ::placeholder
+  {
+    padding-left:20px;
+  }
+.my-border
+{
+    
+    box-shadow: 5px 5px 5px 5px rgba(151, 151, 151, 0.2);
+}
+.drop-down
+{
+    width: 50vw;
+}
+
+.p-font
+{
+    font-size: 10px;
+}
+.move
+{
+    position: relative;
+    z-index: 2;
+    left: -100px;
+    top: 10px;
+    background-color: #FFFFFF;
+}
+
+
+  @media only screen and (min-width: 300px) and (max-width: 600px) {
+    .move {
+        left: -40px;
+    }
+}
+@media only screen and (min-width: 770px) and (max-width: 1000px) {
+    .move {
+        left: -30px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .move {
+        left: -80px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .move {
+        left: -70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
